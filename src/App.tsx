@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import { AppSidebar } from "./components/app-sidebar";
@@ -17,11 +17,7 @@ import Payment from "./pages/Payment";
 import BreadcrumbDynamic from "./components/BreadcrumbDynamic";
 
 // Import Data
-import {
-  menuItemsGeneral,
-  menuItemsTools,
-  menuItemsSupport,
-} from "./data/sidebarData";
+import { menuItemsGeneral } from "./data/sidebarData";
 import Customers from "./pages/Customers";
 import Message from "./pages/Message";
 import { Breadcrumb, BreadcrumbList } from "./components/ui/breadcrumb";
