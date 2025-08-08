@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+
 import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
@@ -56,6 +58,7 @@ function App() {
           <Route path="/automation" element={<Automation />} />
         </Routes>
       </SidebarInset>
+      <Analytics />
     </SidebarProvider>
   );
 }
